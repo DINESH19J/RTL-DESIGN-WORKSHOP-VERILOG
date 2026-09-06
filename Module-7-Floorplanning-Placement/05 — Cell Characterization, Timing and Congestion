@@ -1,0 +1,34 @@
+
+---
+
+# `05-Characterization-Timing-and-Congestion.md`
+
+```markdown
+# 05 — Cell Characterization, Timing and Congestion
+
+## 📌 Introduction
+
+Standard cells must be characterized before they can be effectively used in ASIC design.
+
+Characterization determines the electrical and timing behavior of a cell under different operating conditions.
+
+This section introduces the cell design flow, characterization flow, timing thresholds, propagation delay, transition time and congestion-aware placement.
+
+---
+
+## 🔬 Cell Design Flow
+
+A typical standard-cell design flow includes:
+
+```text
+Cell Specification
+       ↓
+Circuit Design
+       ↓
+Layout Design
+       ↓
+Parasitic Extraction
+       ↓
+Characterization
+       ↓
+Library Generation
