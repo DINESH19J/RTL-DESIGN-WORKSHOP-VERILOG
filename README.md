@@ -17,27 +17,34 @@ This repository contains RTL Verilog code, testbenches, liberty timing specs, an
 ## 📂 Repository Structure
 
 ```text
-├── Week 1/                                          # Introduction to Liberty files & RTL Simulation
-│   ├── README.md
-│   ├── design and test bench.PNG
-│   ├── loading a file in iverilog.PNG
-│   ├── gtkwave for good mux.PNG
-│   ├── read the liberty files.PNG
-│   ├── dot viewer.PNG
-│   ├── netlist.PNG
-│   ├── netlist2.PNG
-│   ├── hier.v.PNG
-│   ├── 1.PNG
-│   ├── flat.v.PNG
-│   └── multiplemodule whole flatten netlist.PNG
-│
-├── Week 2/                                          # Synthesis, Timing Constraints & Optimization
-│   └── README.md
-│
-├── WEEK 3 & 4/                                      # (topics documented in its own README)
-│   └── README.md
-│
-└── README.md                                        # This file
+# RTL Design & Synthesis Workshop
+
+        │
+        ├── Week 1
+        │      ├── RTL Design
+        │      ├── Testbench
+        │      ├── Icarus Verilog
+        │      ├── GTKWave
+        │      ├── Liberty Files
+        │      ├── Netlist
+        │      ├── Hierarchical Synthesis
+        │      └── Flat Synthesis
+        │
+        ├── Week 2
+        │      ├── Synthesis
+        │      ├── Gate-Level Simulation
+        │      ├── Logic Optimization
+        │      ├── Constant Propagation
+        │      ├── Sequential Optimization
+        │      ├── Counter Optimization
+        │      ├── MUX / DEMUX
+        │      ├── Generate Blocks
+        │      ├── Latch Inference
+        │      └── RTL Coding Issues
+        │
+        └── Week 3 & 4
+               └── Topics documented in its README
+ 
 ```
 
 ## 🗂️ Weekly Breakdown
