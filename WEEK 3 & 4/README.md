@@ -94,7 +94,7 @@ The GDSII file represents the final physical geometry of the integrated circuit.
 
 # 4. OpenLANE and SKY130 PDK
 
-
+<img width="1295" height="650" alt="4" src="https://github.com/user-attachments/assets/c1503fc9-8338-4b55-8958-cff2fc4fdecb" />
 
 ### OpenLANE ASIC Design Flow
 
@@ -108,7 +108,7 @@ The flow uses the **SKY130 Process Design Kit (PDK)** to provide technology-spec
 
 # 5. RTL Synthesis
 
-![RTL Synthesis](images/5%20synthesis%20succes.PNG)
+<img width="1350" height="728" alt="5 synthesis succes" src="https://github.com/user-attachments/assets/3acd2ff3-b6a7-411b-9c8c-7302c6fb8cf5" />
 
 ### RTL Synthesis and Successful Synthesis
 
@@ -124,7 +124,7 @@ The terminal output shown above confirms that the synthesis process was complete
 
 # 6. Synthesis Statistics
 
-![Synthesis Statistics](images/6%20ff%20ratio.png)
+<img width="1217" height="645" alt="6 ff ratio" src="https://github.com/user-attachments/assets/edaa0a8b-6124-4eed-8a0a-3e6289e566b5" />
 
 ### Standard Cell Statistics
 
@@ -145,7 +145,7 @@ These statistics provide an overview of the complexity of the synthesized design
 
 # 7. Flip-Flop and Standard Cell Analysis
 
-![Flip-Flop Analysis](images/6%20ff%20ratio.png)
+<img width="1217" height="645" alt="6 ff ratio" src="https://github.com/user-attachments/assets/0cfb6cc7-2bb2-46c7-b6ca-bfc29b6b53d3" />
 
 ### Flip-Flop Ratio Analysis
 
@@ -174,7 +174,7 @@ This value represents the proportion of sequential storage elements within the s
 
 # 8. Placement and Physical Design
 
-![Placement Analysis](images/7.placement%20visual.PNG)
+<img width="1146" height="607" alt="7 placement visual" src="https://github.com/user-attachments/assets/83cfec38-5988-4403-b238-9d96185344c5" />
 
 ### Placement Analysis and Optimization
 
@@ -194,7 +194,7 @@ The placement process attempts to arrange the cells efficiently while satisfying
 
 # 9. Placement Visualization
 
-![Placement Visualization](images/8%20placement.PNG)
+<img width="807" height="608" alt="8 placement" src="https://github.com/user-attachments/assets/e6d57f97-dbe1-4263-b4a4-1cfae37f1615" />
 
 ### Standard Cell Placement Visualization
 
@@ -208,7 +208,7 @@ The placement result provides the foundation for the subsequent routing stage.
 
 # 10. Magic VLSI Layout Inspection
 
-![Magic VLSI Layout](images/9%20magic%20layout.PNG)
+<img width="838" height="394" alt="9 magic layout" src="https://github.com/user-attachments/assets/ab5e2e02-d5c4-49f4-89af-76eb0242a2e4" />
 
 ### Layout Visualization Using Magic VLSI
 
@@ -228,7 +228,7 @@ Magic allows the physical geometry and connectivity of the design to be inspecte
 
 # 11. CMOS Inverter Layout
 
-![CMOS Inverter Layout](images/10%20layout%20inverter.PNG)
+<img width="838" height="406" alt="10 layout inverter" src="https://github.com/user-attachments/assets/497d80b9-ba87-4c8f-b0b8-ff8451098261" />
 
 ### CMOS Inverter Physical Layout
 
@@ -244,7 +244,7 @@ This layout demonstrates how a basic CMOS logic gate is physically implemented i
 
 # 12. Layout Layer Inspection
 
-![Layout Layer Inspection](images/11%20layout%20layer%20inspection.PNG)
+<img width="689" height="387" alt="11 layout layer inspection" src="https://github.com/user-attachments/assets/928d808d-aa80-449d-885b-a4e2b1a2b964" />
 
 ### Layer-Level Layout Inspection
 
@@ -264,7 +264,7 @@ This step helps verify the physical connectivity and geometry of the layout.
 
 # 13. SPICE Testbench
 
-![SPICE Testbench](images/12%20transient%20analysis%20testbench.PNG)
+<img width="838" height="479" alt="12 transient analysis testbench" src="https://github.com/user-attachments/assets/ee81b65d-ce0c-41cb-86e6-bd6723b51b0d" />
 
 ### SPICE Testbench for CMOS Inverter
 
@@ -287,7 +287,7 @@ The input pulse allows the inverter's switching response to be analyzed.
 
 # 14. Extracted SPICE Netlist
 
-![Extracted Netlist](images/extracted%20netlist%20standard%20inverter.PNG)
+<img width="830" height="326" alt="extracted netlist standard inverter" src="https://github.com/user-attachments/assets/fc38da94-cb0b-41ce-a6ef-b92dbaf2eabc" />
 
 ### Layout-Extracted SPICE Netlist
 
@@ -309,7 +309,7 @@ This enables the physical layout to be electrically simulated and verified.
 
 # 15. Post-Layout SPICE Simulation
 
-![NGSPICE Simulation](images/ngspice%20transient%20spice%20simulation.PNG)
+<img width="830" height="326" alt="extracted netlist standard inverter" src="https://github.com/user-attachments/assets/c55953df-02d9-46a1-bf0e-b3fdb306358c" />
 
 ### NGSPICE Post-Layout Simulation
 
@@ -323,7 +323,7 @@ This allows the electrical behavior of the implemented circuit to be evaluated w
 
 # 16. Transient Simulation Waveform
 
-![Transient Simulation Waveform](images/Capture.PNG)
+<img width="832" height="432" alt="ngspice transient spice simulation" src="https://github.com/user-attachments/assets/1d8b0cfe-a131-42eb-969f-617dafa2aa8e" />
 
 ### Transient Analysis and Waveform Verification
 
@@ -342,7 +342,7 @@ The repeated switching confirms the functional behavior of the CMOS inverter dur
 
 # 17. Final Physical Layout
 
-![Final Physical Layout](images/15%20layout.PNG)
+<img width="831" height="497" alt="15 layout" src="https://github.com/user-attachments/assets/38c8b0fe-b353-49ad-8ccf-405159347157" />
 
 ### Final Layout Result
 
